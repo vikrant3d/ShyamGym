@@ -229,10 +229,8 @@
    
     <!-- Page-Level Demo Scripts - Tables - Use for reference -->
     <script>
-	alert("Innnn")
 	var input2 = document.getElementById("custPic1");
     input2.onchange = function() {
-		alert("Event cap")
 		document.getElementById('custPic-image').src = '';
 		$(".image-sec-cust").append('<i class="fa fa-refresh fa-spin" style="font-size: 81px;color: #2e6da4;"></i>')
 		setTimeout(resizeCustPic,200);
